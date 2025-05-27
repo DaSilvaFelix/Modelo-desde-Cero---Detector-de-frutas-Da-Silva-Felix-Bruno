@@ -1,0 +1,4 @@
+".venv/" 
+dataset_frutas 
+"*.pyc" 
+"__pycache__/" 

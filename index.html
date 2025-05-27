@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Entrenamiento y Clasificación de Frutas</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Entrenamiento y Clasificación de Frutas</h1>
+
+    <!-- Sección de Entrenamiento -->
+    <h2>Entrenamiento del Modelo</h2>
+    <input type="file" id="upload" multiple webkitdirectory directory />
+    <button onclick="entrenarModelo()">Entrenar Modelo</button>
+    <pre id="output"></pre>
+
+    <!-- Sección de Clasificación -->
+    <h2>Clasificación de Frutas</h2>
+    <input type="file" id="imagen" accept="image/*" />
+    <img id="preview" />
+    <p id="resultado">Subí una imagen para predecir</p>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+  </body>
+</html>
